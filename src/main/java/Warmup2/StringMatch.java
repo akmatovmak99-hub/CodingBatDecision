@@ -3,7 +3,7 @@ package Warmup2;
 public class StringMatch {
     public static void main(String[] args) {
         StringMatch a =new StringMatch();
-        System.out.println(a.stringMatch("xxcaazz", "xxbaaz));
+        System.out.println(a.stringMatch("xxcaazz", "xxbaaz"));
     }
     public int stringMatch(String a, String b) {
         int len = Math.min(a.length(), b.length());
